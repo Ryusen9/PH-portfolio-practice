@@ -303,3 +303,100 @@ i{
     font-weight: var(--fw1);
     color: var(--dark3);
 }
+
+/* resume part starts here */
+
+.resume-container{
+    width: 80%;
+    margin: 0 auto 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.equal-coloumn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.resume-container-tittle{
+    font-size: 2.188rem;
+    font-weight: var(--fw3);
+    color: var(--dark1);
+    margin-bottom: 113px;
+}
+
+.my-education h3{
+    font-size: 1.875rem;
+    font-weight: var(--fw3);
+    color: var(--dark2);
+    margin-bottom: 30px;
+}
+
+.education-container{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    width: 558px;
+    margin-bottom: 30.5px;
+}
+
+.education-container h3{
+    font-size: 1.5rem;
+    font-weight: var(--fw3);
+    color: var(--dark3);
+}
+
+.education-container h4{
+    font-size: 1.25rem;
+    font-weight: var(--fw2);
+    color: var(--dark3);
+
+}
+
+.education-container p{
+    width: 511px;
+    text-align: left;
+    color: var(--dark3);
+    font-weight: var(--dark1);
+    font-size: 1rem;
+    padding-right: 28px;
+    margin-bottom: 29.5px;
+}
+
+.my-experiences h3{
+    font-size: 1.875rem;
+    font-weight: var(--fw3);
+    color: var(--dark2);
+    margin-bottom: 30px;
+}
+
+.experience-container{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    width: 558px;
+    margin-bottom: 30.5px ;
+}
+
+.experience-container h3{
+    font-size: 1.5rem;
+    font-weight: var(--fw3);
+    color: var(--dark3);
+}
+
+.experience-container h4{
+    font-size: 1.25rem;
+    font-weight: var(--fw2);
+    color: var(--dark3);
+
+}
+
+.experience-container p{
+    width: 511px;
+    text-align: left;
+    color: var(--dark3);
+    font-weight: var(--dark1);
+    font-size: 1rem;
+    padding-right: 28px;
+    margin-bottom: 29.5px;
+}
