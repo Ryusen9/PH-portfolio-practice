@@ -1,0 +1,16 @@
+@media (max-width: 576px) {
+    .about-container{
+        position: relative;
+        left: 150px;
+    }
+
+    .what-to-do-container{
+        position: relative;
+        left: 450px;
+    }
+
+    .resume-container{
+    position: relative;
+    left: 450px;
+    }
+}
